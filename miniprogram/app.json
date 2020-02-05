@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/forum/forum",
+    "pages/weather/weather",
+    "pages/user/user",
+    "pages/editUserInfo/editUserInfo",
+    "pages/friendList/friendList",
+    "pages/detail/detail",
+    "pages/editUserInfo/head/head",
+    "pages/editUserInfo/name/name",
+    "pages/editUserInfo/phone/phone"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#937bf5",
+    "navigationBarTitleText": "虫害通知系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/tabBar/index.png",
+        "selectedIconPath": "./images/tabBar/index_.png"
+      },
+      {
+        "pagePath": "pages/forum/forum",
+        "text": "附件的事",
+        "iconPath": "./images/tabBar/near.png",
+        "selectedIconPath": "./images/tabBar/near_.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "./images/tabBar/weather.png",
+        "selectedIconPath": "./images/tabBar/weather_.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的信息",
+        "iconPath": "./images/tabBar/user.png",
+        "selectedIconPath": "./images/tabBar/user_.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

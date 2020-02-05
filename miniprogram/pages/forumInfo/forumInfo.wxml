@@ -1,0 +1,15 @@
+<van-cell-group>
+<image wx:if="{{task.image}}" src="{{task.image}}"></image>
+  <van-cell title="{{task.title}}"
+   border="{{false}}"  
+   value="{{task.status}}"
+  />
+  <van-cell title="位置"
+  icon="location"
+  bind:click="viewLocation"
+  wx:if="{task.location}"
+   border="{{false}}"  
+   value="{{task.location.name}}"
+
+   />
+</van-cell-group>

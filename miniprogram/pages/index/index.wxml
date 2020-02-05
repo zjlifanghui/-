@@ -1,0 +1,32 @@
+
+<view class="index">
+
+      <swiper class="index-swiper" indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="circular">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <image  mode="scaleToFill" class="slide-image" src="{{item}}"> </image>
+          </swiper-item>
+        </block>
+      </swiper>
+ 
+      <view class="index-tab">
+         <view class="active">推荐</view>
+         <view>最新</view>
+      </view>
+
+      <view class="index-list">
+
+        <view class=".index-list-item">
+        <image mode="scaleToFill" src="../../images/swiper/1.png"></image>
+        <text>
+          <text>小妹妹</text>
+          <text>
+            <text class="iconfont iconlike"></text>
+            <text>100</text>
+          </text>
+        </text>
+        </view>
+
+      </view>
+</view>

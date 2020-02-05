@@ -1,0 +1,12 @@
+<view class="plusBtn">
+  <navigator url="../forum/forum">
+   <van-icon name="plus" class="plusIcon" /> 
+  </navigator>
+</view>
+<van-cell-group>
+<block wx:for="{{tasks}}">
+  <navigator url='../forumInfo/forumInfo?id={{item._id}}'>
+  <van-cell title="{{item.title}}"  />
+  </navigator>
+</block>
+</van-cell-group>
